@@ -1,5 +1,6 @@
 
-<?php 
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'GET') { 
   // Headers
   header('Access-Control-Allow-Origin: *');
   header('Content-Type: application/json');
@@ -71,7 +72,7 @@
   }
 
   echo json_encode($posts_arr,JSON_UNESCAPED_UNICODE);
+ } else {echo "not found";}
 
 
-  ?>
-  
+ ?> 

@@ -1,4 +1,5 @@
-<?php 
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'PUT') { 
   // Headers
   header('Access-Control-Allow-Origin: *');
   header('Content-Type: application/json');
@@ -31,3 +32,5 @@
       array(Constants::$nameOfstateMessge=>Constants::$errorOfstateMessge)
     );
   }
+  }
+ else{ echo "not found"; }
