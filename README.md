@@ -6,6 +6,7 @@ I used the three-tier layer, which is divided into the first layer is Database ,
 I used rest api architectural style.
 # Technology
 I used mysql language to Database ,php to Business Logic , and java to Presentation .
+I used sha512 for Hashing password .
 <br>
 I used rxjava, retrofit, Dagger libraries .
 # OverView
