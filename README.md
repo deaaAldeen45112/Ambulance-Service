@@ -9,6 +9,7 @@ I used mysql language to Database ,php to Business Logic , and java to Presentat
 I used sha512 for Hashing password .
 <br>
 I used rxjava, retrofit, Dagger libraries .
-# OverView
-Application has three types of user are admin, ambulance, paramedic.<br>
+# Note
+I didn't put all project on github because we seek for investing it
+<br>
 
