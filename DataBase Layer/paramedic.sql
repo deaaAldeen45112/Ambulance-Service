@@ -66,23 +66,10 @@ INSERT INTO `disease_states` (`disease_states_id`, `disease_states_name`) VALUES
 -- Table structure for table `paramedic`
 --
 
-CREATE TABLE `paramedic` (
-  `paramedic_id` int(11) NOT NULL,
-  `userlogin_id` int(11) DEFAULT NULL,
-  `paramedic_status` varchar(10) DEFAULT NULL,
-  `paramedic_longitude` varchar(20) DEFAULT NULL,
-  `paramedic_latitude` varchar(20) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `paramedic`
 --
-
-INSERT INTO `paramedic` (`paramedic_id`, `userlogin_id`, `paramedic_status`, `paramedic_longitude`, `paramedic_latitude`) VALUES
-(1, 7, 'no', '21.1351783', '26.0859633'),
-(2, 3, 'yes', '32.4', '35.8738'),
-(4, 6, 'no', '21.1351783', '26.0859633'),
-(6, 14, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -146,22 +133,6 @@ CREATE TABLE `userlogin` (
 --
 -- Dumping data for table `userlogin`
 --
-
-INSERT INTO `userlogin` (`userlogin_id`, `email`, `password`, `full_name`, `phone`, `age`, `role_name`) VALUES
-(1, 'patient@gmail.com', '35c526c61aa934babf985c4dc7fee622b32234b1a695efeb1faf38148d5c9153e041074cd5d8bb93b23f84c0cad2d8cd5563b498514903d04fed7475bb849f80', 'patient', '079', 50, 'Patient'),
-(2, 'ambulance@gmail.com', 'f20d7c73600d274aa66a37ab90009a65e1acfd9bd581641e5c0cb3f57899c1d318d22612b0e315136729cf347bda295fc0b978eb0e9bf5c98c1838f246121b36', 'ambulance', '078', 40, 'Ambulance'),
-(3, 'para@gmail.com', '123456', 'para1', '077', 1, 'Paramedic'),
-(4, 'para2@gmail.com', '123456', 'para2', '077', 1, 'Paramedic'),
-(5, 'para3@gmail.com', '123456', 'para3', '077', 1, 'Paramedic'),
-(6, 'para4@gmail.com', '123456', 'para4', '077', 1, 'Paramedic'),
-(7, 'para5@gmail.com', 'ff4a7bf1435ca3d8653dc5f20d96e145f421aa265880a9d070c8b7a369eafb2ffc9c1b8816803d4c1229cef2f6528e67ae61318c089366a0c6d2a03775f12391', 'para5', '077', 1, 'Paramedic'),
-(8, 'para6@gmail.com', '123456', 'para6', '077', 1, 'Paramedic'),
-(9, 'admin@gmail.com', '123456', 'admin', '076', 1, 'Admin'),
-(10, 'deaa@gmail.com', '123456', 'patientDeaa', '0798596', 0, 'Patient'),
-(11, '', '', '', '', 0, 'Patient'),
-(13, 'asfd', '', '', '', 12, 'Patient'),
-(14, 'asd@gmail.com', '123456', 'asd', '0489', 23, 'Paramedic'),
-(15, 'am@gmail.com', '123456', 'am', '23', 22, 'Ambulance');
 
 --
 -- Triggers `userlogin`
