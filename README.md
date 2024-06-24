@@ -9,8 +9,6 @@ I used mysql language to Database ,php to Business Logic , and java to Presentat
 I used sha512 for Hashing password .
 <br>
 I used rxjava, retrofit, Dagger libraries .
-# Note
-I didn't put all project on github because we seek for investing it
 <br>
 # Overview
 video link : https://drive.google.com/file/d/1q-IKzAvl_TCJBsUFOcMS74CkuMJ2Wvfc/view
